@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HomeDomitic</string>
+    <string name="item1">Cerrar Sesión</string>
+    <string name="item2">Guardar</string>
+    <string name="item3">Buscar</string>
+    <string name="item4">Actualizar</string>
+</resources>

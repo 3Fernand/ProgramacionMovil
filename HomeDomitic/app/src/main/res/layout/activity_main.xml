@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar" />
+
+        <Button
+            android:id="@+id/btnEstancia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estancia" />
+
+        <Button
+            android:id="@+id/btnCasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casa" />
+
+        <Button
+            android:id="@+id/btnElemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elemento" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
